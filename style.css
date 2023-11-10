@@ -1,7 +1,52 @@
-﻿body{
-    background-color : rgb(55, 96, 53);
+﻿body {
+    background-color: #FFFFFF ;
 }
 
-h1{
-    color : rgb(241, 237, 142);
+.menuButton {
+    font-family: Lato;
+    font-size: 50px;
+    text-align: center;
+    text-decoration: none;
+    width: 230px;
+    height: 70px;
+    border-color: #AAAAAA;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    background-color: #FFFFFF;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.menuButton:hover {
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: none;
+    border-left-style: none;
+}
+
+.menuButton:active {
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+    border-left-style: none;
+    box-shadow: -5px 5px 5px black;
+}
+
+.menuButton:visited{
+    color: #000000;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+}
+
+.iGame{
+    border: none;
 }
