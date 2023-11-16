@@ -213,6 +213,16 @@ body {
     display: flex;
     flex-direction: column;
     padding: 20px 30px;
+    opacity: 0;
+    transform: scale(.8);
+    transition: .7s;
+    transition-delay: 1s;
+}
+
+.quiz-section .quiz-box.active {
+    opacity: 1;
+    pointer-events: auto;
+    transform: scale(1);
 }
 
 .quiz-box h1 {
@@ -261,6 +271,10 @@ body {
 .quiz-box .odpowiedz:hover {
     background: #444444;
     border-color: #ff6a00;
+}
+
+.quiz-box .odpowiedz.poprawna {
+    background: greenyellow;
 }
 
 .quiz-box .quiz-footer {
