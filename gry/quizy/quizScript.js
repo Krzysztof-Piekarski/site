@@ -5,6 +5,7 @@ const main = document.querySelector('.main');
 const continuePopupInfo = document.querySelector('.continue-popup-info');
 const quizSection = document.querySelector('.quiz-section');
 const quizBox = document.querySelector('.quiz-box');
+const rezultatBox = document.querySelector('.rezultat');
 
 quizStartBtn.onclick = () => {
     quizPopupInfo.classList.add('active');
@@ -34,9 +35,15 @@ nextBtn.onclick = () => {
     if (questionCount < pytania.length - 1) {
         questionCount++;
         showQuestions(questionCount);
+
+        nextBtn.classList.remove('active');
     }
     else {
-        console.log('To było ostatnie pytanie.');
+        quizBox.classList.remove('active');
+        rezultatBox.classList.add('active');
+
+        const tekstWyniku = document.querySelector('.tekst-wyniku');
+        tekstWyniku.textContent = `Uzyskano ${wynik}/${pytania.length}`;
     }
 }
 
@@ -70,7 +77,18 @@ function selectOption(odp) {
     }
     else {
         odp.classList.add('bledna');
+        for (let i = 0; i < 4; i++) {
+            if (listaOdpowiedzi.children[i].textContent == pytania[questionCount].odpowiedzPoprawna) {
+                listaOdpowiedzi.children[i].classList.add('poprawna');
+            }
+        }
     }
+
+    for (let i = 0; i < 4; i++) {
+        listaOdpowiedzi.children[i].classList.add('niedostepna');
+    }
+
+    nextBtn.classList.add('active');
 
     const actualScore = document.querySelector('.header-score');
     actualScore.textContent = `Wynik: ${wynik}/${pytania.length}`

@@ -12,7 +12,7 @@ let pytania = [
     },
     {
         numb: 2,
-        pytanie: "Co przynieśli w darach magowie ze wschodu Panu Jezusowi?",
+        pytanie: "Co przynieśli w darach magowie ze Wschodu Panu Jezusowi?",
         odpowiedzPoprawna: "D. Kadzidło, złoto i mirra",
         opcje: [
             "A. Kadzidło, srebro i medalion",
