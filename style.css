@@ -216,13 +216,13 @@ body {
     opacity: 0;
     transform: scale(.8);
     transition: .7s;
-    transition-delay: 1s;
 }
 
 .quiz-section .quiz-box.active {
     opacity: 1;
     pointer-events: auto;
     transform: scale(1);
+    transition-delay: 1s;
 }
 
 .quiz-box h1 {
@@ -342,7 +342,7 @@ body {
 
 .quiz-section .rezultat.active {
     opacity: 1;
-    transition-delay: 1.4s;
+    transition-delay: 0.6s;
     transform: translate(-50%, -50%) scale(1);
     pointer-events: auto;
 }
@@ -374,7 +374,7 @@ body {
     position: relative;
     width: 250px;
     height: 250px;
-    background: conic-gradient(#11ff11 180deg, rgba(255,255,255,.1) 0deg);
+    background: conic-gradient(#11ff11 0deg, rgba(255,255,255,.1) 0deg);
     border-radius: 50%;
     display: flex;
     justify-content: center;

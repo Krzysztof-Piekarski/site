@@ -6,6 +6,8 @@ const continuePopupInfo = document.querySelector('.continue-popup-info');
 const quizSection = document.querySelector('.quiz-section');
 const quizBox = document.querySelector('.quiz-box');
 const rezultatBox = document.querySelector('.rezultat');
+const kolejnePodejscieBtn = document.querySelector('.kolejne-podejscie-btn');
+const resultExit = document.querySelector('.wyjscie-btn'); 
 
 quizStartBtn.onclick = () => {
     quizPopupInfo.classList.add('active');
@@ -26,6 +28,22 @@ continuePopupInfo.onclick = () => {
     showQuestions(0);
 }
 
+kolejnePodejscieBtn.onclick = () => {
+    quizBox.classList.add('active');
+    rezultatBox.classList.remove('active');
+    nextBtn.classList.remove('active');
+    questionCount = 0;
+    wynik = 0;
+    showQuestions(questionCount);
+    headerWynikUpdate()
+}
+
+resultExit.onclick = () => {
+    quizSection.classList.remove('active');
+    rezultatBox.classList.remove('active');
+    nextBtn.classList.remove('active');
+}
+
 let questionCount = 0;
 let wynik = 0;
 
@@ -44,6 +62,23 @@ nextBtn.onclick = () => {
 
         const tekstWyniku = document.querySelector('.tekst-wyniku');
         tekstWyniku.textContent = `Uzyskano ${wynik}/${pytania.length}`;
+
+        const wizualizacjaWyniku = document.querySelector('.kolowy-wykres');
+        const wartoscWyniku = document.querySelector('.wartosc-procentowa');
+        let wynikStart = -50;
+        let wynikEnd = (wynik / pytania.length) * 100;
+        let speed = 20;
+
+        let interwalWynik = setInterval(() => {
+            wynikStart++;
+            if (wynikStart >= 0) {
+                wartoscWyniku.textContent = `${wynikStart}%`;
+                wizualizacjaWyniku.style.background = `conic-gradient(#11ff11 ${wynikStart * 3.6}deg, rgba(255,255,255,.1) 0deg)`;
+            }
+            if (wynikStart == wynikEnd) {
+                clearInterval(interwalWynik);
+            }
+        }, speed);
     }
 }
 
@@ -90,6 +125,10 @@ function selectOption(odp) {
 
     nextBtn.classList.add('active');
 
+    headerWynikUpdate();
+}
+
+function headerWynikUpdate() {
     const actualScore = document.querySelector('.header-score');
     actualScore.textContent = `Wynik: ${wynik}/${pytania.length}`
 }
