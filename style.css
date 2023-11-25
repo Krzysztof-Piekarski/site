@@ -7,7 +7,7 @@
 
 body {
     color: #000000;
-    background: #000;
+    background: #ffffff;
 }
 
 .header {
@@ -42,39 +42,19 @@ body {
     border-bottom: 2px solid #000000;
 }
 
-.main{
-    background-color: #ffffff;
-}
-
 .container {
-    height: 320vh;
     display: flex;
+    width: 100vw;
 }
 
-.home {
-    position: center;
-    left: -50%;
-    width: 100%;
-    display: flex;
+.content {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    max-width: 600px;
+    text-align: center;
+
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-
-.home-content {
-    max-width: 600px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-}
-
-.home-content h1{
-    font-size: 40px;
-    text-shadow: 0 0 10px rgba(0,0,0,.2);
-}
-
-.home-content p {
-    font-size: 20px;
-    text-align: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
 }
