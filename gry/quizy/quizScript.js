@@ -67,6 +67,8 @@ nextBtn.onclick = () => {
 
         const wizualizacjaWyniku = document.querySelector('.kolowy-wykres');
         const wartoscWyniku = document.querySelector('.wartosc-procentowa');
+        wizualizacjaWyniku.style.background = `conic-gradient(#11ff11 -1deg, rgba(255,255,255,.1) 0deg)`;
+        wartoscWyniku.textContent = `0%`;
         let wynikStart = -50;
         let wynikEnd = (wynik / pytania.length) * 100;
         let speed = 20;
@@ -87,6 +89,7 @@ nextBtn.onclick = () => {
 const listaOdpowiedzi = document.querySelector('.odpowiedzi'); 
 
 function showQuestions(index) {
+    headerWynikUpdate();
     const questionText = document.querySelector('.pytanie');
     questionText.textContent = `${pytania[index].numb}. ${pytania[index].pytanie}`;
 
