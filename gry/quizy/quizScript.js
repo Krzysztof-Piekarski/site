@@ -42,6 +42,8 @@ resultExit.onclick = () => {
     quizSection.classList.remove('active');
     rezultatBox.classList.remove('active');
     nextBtn.classList.remove('active');
+    questionCount = 0;
+    wynik = 0;
 }
 
 let questionCount = 0;
