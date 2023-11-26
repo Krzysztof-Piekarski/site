@@ -42,19 +42,30 @@ body {
     border-bottom: 2px solid #000000;
 }
 
-.container {
+.kolumna {
     display: flex;
-    width: 100vw;
-}
-
-.content {
-    position: relative;
-    left: 50%;
-    transform: translate(-50%);
-    max-width: 600px;
-    text-align: center;
-
-    flex-direction: column;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.kolumna .wiersz {
+    max-width: 700px;
+    text-align: center;
+    margin: 10px;
+}
+
+.kolumna .wiersz img {
+    width: 380px;
+    float: left;
+    margin-right: 50px;
+}
+
+.kolumna .wiersz .komorka {
+    float: right;
+    flex-direction: row;
+    width: 80px;
+    margin: 5px 5px 0px 5px;
 }
