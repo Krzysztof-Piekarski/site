@@ -59,12 +59,14 @@ body {
 .container {
     height: 100vh;
     display: flex;
-    width: 200%;
+    width: 100%;
 }
 
 .home {
-    position: relative;
-    left: -50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     width: 100%;
     display: flex;
     justify-content: center;
@@ -196,7 +198,8 @@ body {
 .quiz-section {
     color: #ffffff;
     position: relative;
-    left: -50%;
+    opacity: 0;
+    pointer-events: none;
     width: 100%;
     background-color: #222222;
     display: flex;
@@ -204,11 +207,11 @@ body {
     align-items: center;
     transition: .8s ease-in-out;
     transition-delay: .3s;
-    z-index: 10;
+    z-index: 11;
 }
 
 .quiz-section.active {
-    left: 0;
+    opacity: 1;
 }
 
 .quiz-section .quiz-box {
