@@ -52,7 +52,8 @@ body {
 }
 
 .kolumna .wiersz {
-    max-width: 700px;
+    max-width: 800px;
+    flex-direction: row;
     text-align: center;
     margin: 10px;
 }
@@ -60,7 +61,20 @@ body {
 .kolumna .wiersz img {
     width: 380px;
     float: left;
-    margin-right: 50px;
+    margin-right: 20px;
+}
+
+.kolumna .wiersz .youTube{
+    width: 800px;
+    height: 450px;
+    border-radius: 30px;
+}
+
+.kolumna .wiersz .galeria img {
+    width: 220px;
+    border-radius: 13px;
+    float: none;
+    margin: 10px;
 }
 
 .kolumna .wiersz .komorka {
@@ -68,4 +82,24 @@ body {
     flex-direction: row;
     width: 80px;
     margin: 5px 5px 0px 5px;
+}
+
+.kolumna .wiersz .defaultButton {
+    width: 200px;
+    height: 70px;
+    background-color: transparent;
+    border: solid 1px;
+    outline: none;
+    border-radius: 8px;
+    font-size: 20px;
+    color: #000000;
+    letter-spacing: 3px;
+    cursor: pointer;
+    transition: 0.4s;
+    margin-inline: 20px;
+}
+
+.kolumna .wiersz .defaultButton:hover {
+    border-color: #888888;
+    color: #888888;
 }
