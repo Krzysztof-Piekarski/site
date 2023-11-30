@@ -79,7 +79,10 @@ nextBtn.onclick = () => {
                 wartoscWyniku.textContent = `${wynikStart}%`;
                 wizualizacjaWyniku.style.background = `conic-gradient(#11ff11 ${wynikStart * 3.6}deg, rgba(255,255,255,.1) 0deg)`;
             }
-            if (wynikStart == wynikEnd) {
+            if (wynikStart >= wynikEnd) {
+                if (wynikStart > 100) {
+                    wynikStart = 100;
+                }
                 clearInterval(interwalWynik);
             }
         }, speed);
@@ -91,7 +94,7 @@ const listaOdpowiedzi = document.querySelector('.odpowiedzi');
 function showQuestions(index) {
     headerWynikUpdate();
     const questionText = document.querySelector('.pytanie');
-    questionText.textContent = `${pytania[index].numb}. ${pytania[index].pytanie}`;
+    questionText.textContent = `${pytania[index].num}. ${pytania[index].pytanie}`;
 
     let odpowiedz = `<div class="odpowiedz"><span>${pytania[index].opcje[0]}</span></div>
                     <div class="odpowiedz"><span>${pytania[index].opcje[1]}</span></div>
@@ -106,7 +109,7 @@ function showQuestions(index) {
     }
 
     const numerPytania = document.querySelector('.question-total');
-    numerPytania.textContent = `${pytania[index].numb} z ${pytania.length} pytań`;
+    numerPytania.textContent = `${pytania[index].num} z ${pytania.length} pytań`;
 }
 
 function selectOption(odp) {
