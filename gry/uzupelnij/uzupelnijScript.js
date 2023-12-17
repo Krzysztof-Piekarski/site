@@ -1,5 +1,15 @@
 const slowo = document.querySelectorAll('.slowoOut');
 const pusteMiejsce = document.querySelectorAll('.slowoIn');
+const kolumna = document.querySelector('.kolumna');
+const gratulacje = document.querySelector('.gratulacje');
+const gratulacjeExit = document.querySelector('.wyjscieBtn');
+
+let counter = 0;
+
+gratulacjeExit.onclick = () => {
+    gratulacje.classList.remove('aktywne');
+    kolumna.classList.remove('blur');
+}
 
 slowo.forEach(tile => {
     tile.addEventListener('dragstart', handleDragStart);
@@ -32,6 +42,12 @@ function handleDrop(event) {
         slowo.forEach(szukana => {
             if (szukana.textContent == wybraneSlowo) {
                 szukana.classList.add('ukryte');
+                counter++;
+                if (counter == 10) {
+                    gratulacje.classList.add('aktywne');
+                    kolumna.classList.add('blur');
+                    counter = 0;
+                }
             }
         });
 
