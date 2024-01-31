@@ -64,6 +64,10 @@ body {
     margin-right: 20px;
 }
 
+.kolumna .wiersz h1 {
+    margin-top: 100px;
+}
+
 .kolumna .wiersz h2.kbgOdcinekTytul {
     font-size: 22px;
     margin-bottom: 5px;
@@ -106,6 +110,7 @@ body {
     cursor: pointer;
     transition: 0.4s;
     margin-inline: 20px;
+    margin-bottom: 10px;
 }
 
 .kolumna .wiersz .defaultButton:hover {

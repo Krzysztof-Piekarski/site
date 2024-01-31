@@ -66,6 +66,10 @@ body {
     margin: 10px;
 }
 
+.kolumna .wiersz h1 {
+    margin-top: 100px;
+}
+
 .kolumna .wiersz .slowoIn {
     min-width: 24px;
     min-height: 18px;
@@ -95,6 +99,7 @@ body {
     border: 3px solid #44a3dd;
     border-radius: 5px;
     background-color: #222222;
+    text-align: center;
     cursor: grab;
     display: inline-block;
     margin-bottom: 10px;

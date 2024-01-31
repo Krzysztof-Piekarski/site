@@ -1,0 +1,259 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+
+body {
+    color: #000000;
+    background: #222222;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 5px 10%;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10;
+    box-shadow: 0px 10px 13px rgba(255,255,255,.2);
+}
+
+.logo img {
+    width: 100px;
+}
+
+.navbar a {
+    font-size: 18px;
+    color: #584557;
+    text-decoration: none;
+    padding: 2px;
+    margin-left: 35px;
+    transition: 0.08s;
+}
+
+.navbar a:hover,
+.navbar a.active {
+    border-bottom: 2px solid #000000;
+}
+
+.kolumna {
+    color: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    pointer-events: auto;
+    transition: .7s ease;
+}
+
+.kolumna.blur {
+    filter: blur(20px);
+    pointer-events: none;
+}
+
+.kolumna .wiersz {
+    max-width: 800px;
+    flex-direction: row;
+    text-align: center;
+    margin: 10px;
+}
+
+.kolumna .wiersz #zgadywane {
+    font-size: 45px;
+    margin-top: 150px;
+    margin-bottom: 20px;
+    min-height: 50px;
+    font-family: "Cousine", monospace;
+    font-weight: 700;
+    font-style: normal;
+    transition: 1s;
+}
+
+.kolumna .wiersz #zgadywane.wygrana {
+    color: #11ff11;
+}
+
+.kolumna .wiersz #zgadywane.przegrana {
+    color: #ff1111;;
+}
+
+.kolumna .wiersz .kwiat {
+    max-width: 400px;
+    float: left;
+    text-align: center;
+    margin-right: 10px;
+    min-height: 390px;
+    margin-bottom: 30px;
+}
+
+.kolumna .wiersz .kwiat img {
+    width: 400px;
+    float: left;
+}
+
+.kolumna .wiersz #litery {
+    max-width: 390px;
+    float: left;
+    text-align: center;
+    min-width: 390px;
+    margin-top: 100px;
+}
+
+.kolumna .wiersz #litery.zablokowane {
+    border-color: #444444;
+    color: #444444;
+    pointer-events: none;
+    cursor: none;
+    transition: 0.3s;
+}
+
+.kolumna .wiersz #litery .litera{
+    width: 35px;
+    height: 35px;
+    padding: 2px;
+    margin: 6px;
+    font-size: 22px;
+    border: 2px solid #44a3dd;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 1s;
+    float: left;
+}
+
+.kolumna .wiersz #litery .litera:hover{
+    background: #444444;
+    border-color: #ffffff;
+}
+
+.kolumna .wiersz #litery .litera.poprawna{
+    border-color: #11ff11;
+    color: #11ff11;
+    pointer-events: none;
+    cursor: none;
+    transition: 0.3s;
+}
+
+.kolumna .wiersz #litery .litera.niepoprawna{
+    border-color: #ff1111;
+    color: #ff1111;
+    pointer-events: none;
+    cursor: none;
+    transition: 0.3s;
+}
+
+
+
+
+
+
+
+
+
+.kolumna .wiersz .slowoIn.poprawna {
+    border: none;
+    color: #11ff11;
+}
+
+.kolumna .wiersz .slowoIn.bledna {
+    border: none;
+    background-color: #ff1111;
+    color: #222222;
+}
+
+.kolumna .kafelki {
+    position: fixed;
+    bottom: 100px;
+}
+
+.kolumna .kafelki .slowoOut {
+    min-width: 70px;
+    min-height: 24px;
+    border: 3px solid #44a3dd;
+    border-radius: 5px;
+    background-color: #222222;
+    cursor: grab;
+    display: inline-block;
+    margin-bottom: 10px;
+    padding-inline: 10px;
+    padding-bottom: 3px;
+}
+
+.kolumna .kafelki .slowoOut.ukryte {
+    display: none;
+}
+
+.kolumna .wiersz .defaultButton {
+    width: 200px;
+    height: 70px;
+    background-color: transparent;
+    border: solid 1px;
+    outline: none;
+    border-radius: 8px;
+    font-size: 20px;
+    color: #ffffff;
+    letter-spacing: 3px;
+    cursor: pointer;
+    transition: 0.4s;
+    margin-inline: 20px;
+}
+
+.kolumna .wiersz .defaultButton:hover {
+    border-color: #888888;
+    color: #888888;
+}
+
+
+.gratulacje {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.8);
+    display: flex;
+    pointer-events: none;
+    background: transparent;
+    width: 400px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    transition: .7s ease;
+}
+
+.gratulacje.aktywne{
+    pointer-events: auto;
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 1;
+}
+
+.gratulacje img{
+    width: 350px;
+}
+
+.gratulacje .wyjscieBtn {
+    width: 200px;
+    height: 35px;
+    background-color: transparent;
+    border: solid 1px;
+    outline: none;
+    border-radius: 8px;
+    font-size: 22px;
+    color: #ffffff;
+    letter-spacing: 3px;
+    cursor: pointer;
+    transition: 0.4s;
+    margin: 5px;
+    margin-inline: 20px;
+}
+
+.gratulacje .wyjscieBtn:hover {
+    border-color: #888888;
+    color: #888888;
+}
