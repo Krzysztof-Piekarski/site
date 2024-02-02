@@ -4,9 +4,10 @@
 <head>
     <meta charset="utf-8">
     <title>Gry - Rodzina Bogiem silna</title>
-    <link rel="stylesheet" href="../../../style.css" />
+    <link rel="stylesheet" href="../platkiStyle.css" />
     <link rel="shortcut icon" href="../../../grafika/logo/logoKolor.png" />
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cousine:wght@700&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -25,21 +26,33 @@
         </header>
 
         <section class="kolumna">
+
             <div class="wiersz">
-                <h1>Quizy<br/>Biblijny</h1>
+                <div id="zgadywane">                   
+                </div>
             </div>
+
             <div class="wiersz">
-                <p>Strona w trakcie budowy.</p><br />
+                <div class="kwiat" id="kwiatObr">
+                    <img src="../kwiat/kwiat10.png" alt="Kwiat">
+                </div>
+
+                <div id="litery">
+                    
+                </div>
             </div>
+
             <div class="wiersz">
-                <button class="defaultButton" onclick="location.href = 'quizBiblijny14.html'">Dla klas 1-4</button>
+                <button class="defaultButton" id="kolejne">Kolejne hasło</button>
             </div>
+
             <div class="wiersz">
-                <br /><br /><br />
-                <button class="defaultButton" onclick="location.href = '../quizy.html'">Powrót</button>
+                <button class="defaultButton" onclick="location.href = '../platki.html'">Powrót</button>
             </div>
         </section>
     </main>
 
+    <script src="../platkiScript.js"></script>
+    <script src="haslaBozeNarodzeniePlatki.js"></script>
 </body>
 </html>

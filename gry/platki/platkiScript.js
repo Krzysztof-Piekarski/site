@@ -2,6 +2,7 @@ let haslo = "";
 let hasloWidoczne = "";
 let szanse = 10;
 let doWyboru = new Array(35);
+let kolejneBtn = document.getElementById("kolejne");
 doWyboru[0] = "A";
 doWyboru[1] = "Ą";
 doWyboru[2] = "B";
@@ -38,10 +39,21 @@ doWyboru[32] = "Z";
 doWyboru[33] = "Ż";
 doWyboru[34] = "Ź";
 
-let klik = new Audio("../common/sounds/klik.wav");
-let misclick = new Audio("../common/sounds/misclick.wav");
-let fanfaryKoniec = new Audio("../common/sounds/fanfaryKoniec.wav");
-let przegranaKoniec = new Audio("../common/sounds/przegranaKoniec.wav");
+let klik = new Audio("../../common/sounds/klik.wav");
+let misclick = new Audio("../../common/sounds/misclick.wav");
+let fanfaryKoniec = new Audio("../../common/sounds/fanfaryKoniec.wav");
+let przegranaKoniec = new Audio("../../common/sounds/przegranaKoniec.wav");
+
+kolejneBtn.addEventListener("click", function(){
+	szanse = 10;
+	document.getElementById("kwiatObr").innerHTML = '<img src="../kwiat/kwiat'+szanse+'.png" alt="Kwiat">';
+	hasloWidoczne = "";
+	document.getElementById("zgadywane").classList.remove('przegrana');
+	document.getElementById("zgadywane").classList.remove('wygrana');
+	document.getElementById("litery").classList.remove('zablokowane');
+	kolejneBtn.classList.remove('widoczne');
+	begin();
+});
 
 function wypisz(){
 	document.getElementById("zgadywane").innerHTML = hasloWidoczne;
@@ -94,7 +106,7 @@ function check(num){
 		misclick.play();
 		szanse--;
 		if(szanse>=0){
-			document.getElementById("kwiatObr").innerHTML = '<img src="kwiat/kwiat'+szanse+'.png" alt="Kwiat">';
+			document.getElementById("kwiatObr").innerHTML = '<img src="../kwiat/kwiat'+szanse+'.png" alt="Kwiat">';
 		}
 	}
 	wypisz();
@@ -103,6 +115,7 @@ function check(num){
 		fanfaryKoniec.play();
 		document.getElementById("zgadywane").classList.add('wygrana');
 		document.getElementById("litery").classList.add('zablokowane');
+		kolejneBtn.classList.add('widoczne');
 	}
 
 	if(szanse==0){
@@ -111,5 +124,6 @@ function check(num){
 		wypisz();
 		document.getElementById("zgadywane").classList.add('przegrana');
 		document.getElementById("litery").classList.add('zablokowane');
+		kolejneBtn.classList.add('widoczne');
 	}
 }
