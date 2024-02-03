@@ -7,7 +7,12 @@ const quizSection = document.querySelector('.quiz-section');
 const quizBox = document.querySelector('.quiz-box');
 const rezultatBox = document.querySelector('.rezultat');
 const kolejnePodejscieBtn = document.querySelector('.kolejne-podejscie-btn');
-const resultExit = document.querySelector('.wyjscie-btn'); 
+const resultExit = document.querySelector('.wyjscie-btn');
+
+const klik = new Audio("../../common/sounds/klik.wav");
+const misclick = new Audio("../../common/sounds/misclick.wav");
+const fanfaryKoniec = new Audio("../../common/sounds/fanfaryKoniec.wav");
+const przegranaKoniec = new Audio("../../common/sounds/przegranaKoniec.wav");
 
 quizStartBtn.onclick = () => {
     quizPopupInfo.classList.add('active');
@@ -86,6 +91,12 @@ nextBtn.onclick = () => {
                 clearInterval(interwalWynik);
             }
         }, speed);
+
+        if(wynik > 35){
+            fanfaryKoniec.play();
+        }else{
+            przegranaKoniec.play();
+        }
     }
 }
 
@@ -117,6 +128,7 @@ function selectOption(odp) {
     if (odpowiedzKliknieta == pytania[questionCount].odpowiedzPoprawna) {
         odp.classList.add('poprawna');
         wynik++;
+        klik.play();
     }
     else {
         odp.classList.add('bledna');
@@ -125,6 +137,7 @@ function selectOption(odp) {
                 listaOdpowiedzi.children[i].classList.add('poprawna');
             }
         }
+        misclick.play();
     }
 
     for (let i = 0; i < 4; i++) {

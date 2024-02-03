@@ -1,8 +1,8 @@
 let haslo = "";
 let hasloWidoczne = "";
 let szanse = 10;
-let doWyboru = new Array(35);
-let kolejneBtn = document.getElementById("kolejne");
+const doWyboru = new Array(35);
+const kolejneBtn = document.getElementById("kolejne");
 doWyboru[0] = "A";
 doWyboru[1] = "Ą";
 doWyboru[2] = "B";
@@ -39,10 +39,10 @@ doWyboru[32] = "Z";
 doWyboru[33] = "Ż";
 doWyboru[34] = "Ź";
 
-let klik = new Audio("../../common/sounds/klik.wav");
-let misclick = new Audio("../../common/sounds/misclick.wav");
-let fanfaryKoniec = new Audio("../../common/sounds/fanfaryKoniec.wav");
-let przegranaKoniec = new Audio("../../common/sounds/przegranaKoniec.wav");
+const klik = new Audio("../../common/sounds/klik.wav");
+const misclick = new Audio("../../common/sounds/misclick.wav");
+const fanfaryKoniec = new Audio("../../common/sounds/fanfaryKoniec.wav");
+const przegranaKoniec = new Audio("../../common/sounds/przegranaKoniec.wav");
 
 kolejneBtn.addEventListener("click", function(){
 	szanse = 10;

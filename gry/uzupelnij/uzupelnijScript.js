@@ -4,6 +4,10 @@ const kolumna = document.querySelector('.kolumna');
 const gratulacje = document.querySelector('.gratulacje');
 const gratulacjeExit = document.querySelector('.wyjscieBtn');
 
+const klik = new Audio("../../../common/sounds/klik.wav");
+const misclick = new Audio("../../../common/sounds/misclick.wav");
+const fanfaryKoniec = new Audio("../../../common/sounds/fanfaryKoniec.wav");
+
 let counter = 0;
 
 gratulacjeExit.onclick = () => {
@@ -41,9 +45,11 @@ function handleDrop(event) {
         wybranePusteMiejsce.removeEventListener('drop', handleDrop);
         slowo.forEach(szukana => {
             if (szukana.textContent == wybraneSlowo) {
+                klik.play();
                 szukana.classList.add('ukryte');
                 counter++;
                 if (counter == 10) {
+                    fanfaryKoniec.play();
                     gratulacje.classList.add('aktywne');
                     kolumna.classList.add('blur');
                     counter = 0;
@@ -53,6 +59,7 @@ function handleDrop(event) {
 
     }
     else {
+        misclick.play();
         wybranePusteMiejsce.classList.remove('poprawna');
         wybranePusteMiejsce.classList.add('bledna');
     }
