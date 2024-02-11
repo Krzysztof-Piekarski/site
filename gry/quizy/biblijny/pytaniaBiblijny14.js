@@ -117,7 +117,7 @@ let pytania = [
             "A. Góra Oliwna",
             "B. Tabor",
             "C. Góra Synaj",
-            "D. Ararat "
+            "D. Ararat"
         ]
     },
     {
@@ -710,7 +710,7 @@ let pytania = [
         opcje: [
             "A. Woda rozstąpiła się na dwie strony",
             "B. Duch Święty zstąpił na Niego, w postaci cielesnej niby gołębica",
-            "C. Krzew zapłonął, ale się nie spalił ",
+            "C. Krzew zapłonął, ale się nie spalił",
             "D. Ukazał się Mojżesz i Eliasz"
         ]
     },

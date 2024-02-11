@@ -56,24 +56,24 @@ let pytania = [
     },
     {
         num: 6,
-        pytanie: "W jaki sposób Józef został doradcą Faraona?",
-        odpowiedzPoprawna: "C. Wyjaśnił jego sny",
+        pytanie: "Kto nie był prorokiem?",
+        odpowiedzPoprawna: "D. Izaak",
         opcje: [
-            "A. Został polecony faraonowi przej jego brata",
-            "B. Faraon był jego kuzynem",
-            "C. Wyjaśnił jego sny",
-            "D. Znał wiele języków"
+            "A. Izajasz",
+            "B. Jeremiasz",
+            "C. Ezechiel",
+            "D. Izaak"
         ]
     },
     {
         num: 7,
-        pytanie: "Kto wybudował Arkę, aby uchronić swoją rodzinę i zwierzęta przed potopem?",
-        odpowiedzPoprawna: "B. Noe",
+        pytanie: "Kto oprócz zwierząt znajdował się na arce Noego?",
+        odpowiedzPoprawna: "B. Noe, jego żona, synowe oraz ich żony",
         opcje: [
-            "A. Noemi",
-            "B. Noe",
-            "C. św. Józef",
-            "D. Lot"
+            "A. Sam Noe",
+            "B. Noe, jego żona, synowe oraz ich żony",
+            "C. Noe ze swoją żoną",
+            "D. Noe, Lot i Abraham ze swoimi rodzinami"
         ]
     },
     {
@@ -89,684 +89,684 @@ let pytania = [
     },
     {
         num: 9,
-        pytanie: "Jak Mojżesz znalazł się na dworze faraona?",
-        odpowiedzPoprawna: "D. Został odnaleziony w skrzynce z papirusu",
+        pytanie: "Kto odnalazł Mojżesza w skrzynce z papirusu?",
+        odpowiedzPoprawna: "B. Córka faraona",
         opcje: [
-            "A. Został wygnany ze swojego miasta",
-            "B. Przyjechał na osiołku",
-            "C. Zabłądził",
-            "D. Został odnaleziony w skrzynce z papirusu"
+            "A. Faraon",
+            "B. Córka faraona",
+            "C. Król Herod",
+            "D. Noe"
         ]
     },
     {
         num: 10,
-        pytanie: "Skąd Mojżesz wyprowadził swoich rodaków?",
-        odpowiedzPoprawna: "B. Z Egiptu",
+        pytanie: "Jak Egipcjanie traktowali Izraelitów na swojej ziemi?",
+        odpowiedzPoprawna: "A. Zmuszali ich do ciężkich prac",
         opcje: [
-            "A. Z Jerozolimy",
-            "B. Z Egiptu",
-            "C. Z ziemi miodem i mlekiem płynącej",
-            "D. Z Ziemi Obiecanej"
+            "A. Zmuszali ich do ciężkich prac",
+            "B. Bardzo dobrze",
+            "C. Dawali im lekkie zadania do wykonania",
+            "D. Byli wobec nich obojętni"
         ]
     },
     {
         num: 11,
-        pytanie: "Na której górze zostało zawarte przymierze pomiędzy Panem Bogiem a Izraelitami?",
-        odpowiedzPoprawna: "C. Góra Synaj",
+        pytanie: "Co powiedział Bóg do Mojżesza, gdy zbliżał się do płonącego krzewu?",
+        odpowiedzPoprawna: "C. Zdejm sandały z nóg, gdyż miejsce, na którym stoisz, jest ziemią świętą",
         opcje: [
-            "A. Góra Oliwna",
-            "B. Tabor",
-            "C. Góra Synaj",
-            "D. Ararat "
+            "A. Nie jesteś godzien ze mną rozmawiać",
+            "B. Pójdziesz do Niniwy i opowiesz jej mieszkańcom o Mnie",
+            "C. Zdejm sandały z nóg, gdyż miejsce, na którym stoisz, jest ziemią świętą",
+            "D. Jeszcze 40 lat spędzisz w Egipcie"
         ]
     },
     {
         num: 12,
-        pytanie: "Co Mojżesz otrzymał od Pana Boga na górze Synaj?",
-        odpowiedzPoprawna: "A. Tablice z Przykazaniami Bożymi",
+        pytanie: "Co odpowiedział Bóg zapytany przez Mojżesza o Swoje imię?",
+        odpowiedzPoprawna: "D. JESTEM, KTÓRY JESTEM",
         opcje: [
-            "A. Tablice z Przykazaniami Bożymi",
-            "B. Przepiórki",
-            "C. Mannę",
-            "D. Pergamin z tekstem Pisma Świętego"
+            "A. Jezus",
+            "B. Pan, Bóg Hebrajczyków",
+            "C. Bóg jedyny",
+            "D. JESTEM, KTÓRY JESTEM"
         ]
     },
     {
         num: 13,
-        pytanie: "Kto miał 12 synów?",
-        odpowiedzPoprawna: "C. Jakub",
+        pytanie: "Kto nie był jednym z synów Jakuba?",
+        odpowiedzPoprawna: "C. Dawid",
         opcje: [
-            "A. Abraham",
-            "B. Noe",
-            "C. Jakub",
-            "D. Adam"
+            "A. Ruben",
+            "B. Juda",
+            "C. Dawid",
+            "D. Józef"
         ]
     },
     {
         num: 14,
-        pytanie: "Jak nazywała się krewna Maryi Panny, matka św. Jana Chrzciciela?",
-        odpowiedzPoprawna: "A. Św. Elżbieta",
+        pytanie: "Jak nazywał się mąż św. Elżbiety - ojciec św. Jana Chrzciciela?",
+        odpowiedzPoprawna: "D. Zachariasz",
         opcje: [
-            "A. Św. Elżbieta",
-            "B. Św. Maria Magdalena",
-            "C. Św. Anna",
-            "D. Judyta"
+            "A. Zacheusz",
+            "B. Zabulon",
+            "C. Symeon",
+            "D. Zachariasz"
         ]
     },
     {
         num: 15,
-        pytanie: "Którego dnia Pan Jezus zmartwychwstał?",
-        odpowiedzPoprawna: "C. Trzeciego",
+        pytanie: "Co arcykapłani i starsi kazali rozpowiadać żołnierzom po zmartwychwstaniu Pana Jezusa?",
+        odpowiedzPoprawna: "B. Jego uczniowie przyszli w nocy i wykradli Go, gdyśmy spali",
         opcje: [
-            "A. Pierwszego",
-            "B. Drugiego",
-            "C. Trzeciego",
-            "D. Czwartego"
+            "A. Jezus cały czas spoczywa w grobie",
+            "B. Jego uczniowie przyszli w nocy i wykradli Go, gdyśmy spali",
+            "C. Jego uczniowie rozpowiadają kłamstwa",
+            "D. Nikt nie wie, co naprawdę tam zaszło"
         ]
     },
     {
         num: 16,
-        pytanie: "Kto pierwszy zobaczył Zmartwychwstałego?",
-        odpowiedzPoprawna: "B. Św. Maria Magdalena",
+        pytanie: "Co Pan Jezus powiedział swoim uczniom po Zmartwychwstaniu?",
+        odpowiedzPoprawna: "A. Idźcie więc i nauczajcie wszystkie narody",
         opcje: [
-            "A. Św. Piotr",
-            "B. Św. Maria Magdalena",
-            "C. Matka Boża",
-            "D. Św. Jan"
+            "A. Idźcie więc i nauczajcie wszystkie narody",
+            "B. Musicie jeszcze trochę poczekać",
+            "C. Nauczajcie tylko Izraelitów",
+            "D. Omijajcie duże miasta"
         ]
     },
     {
         num: 17,
-        pytanie: "Gdzie znajdowały się tablice Dekalogu?",
-        odpowiedzPoprawna: "D. Arka Przymierza",
+        pytanie: "Kto wybudował Pierwszą Świątynię?",
+        odpowiedzPoprawna: "D. Salomon",
         opcje: [
-            "A. Kamienne Stągwie",
-            "B. Arka Noego",
-            "C. Wieczernik",
-            "D. Arka Przymierza"
+            "A. Izrael",
+            "B. Saul",
+            "C. Dawid",
+            "D. Salomon"
         ]
     },
     {
         num: 18,
-        pytanie: "Kim był św. Mateusz zanim został Apostołem?",
-        odpowiedzPoprawna: "A. Celnikiem",
+        pytanie: "Gdzie znajdował się św. Mateusz, gdy został powołany przez Pana Jezusa?",
+        odpowiedzPoprawna: "D. W komorze celnej",
         opcje: [
-            "A. Celnikiem",
-            "B. Rybakiem",
-            "C. Lekarzem",
-            "D. Prawnikiem"
+            "A. W świątyni",
+            "B. Na pastwisku",
+            "C. W łodzi",
+            "D. W komorze celnej"
         ]
     },
     {
         num: 19,
-        pytanie: "Kto powiedział o Panu Jezusie \"Oto Baranek Boży\"?",
-        odpowiedzPoprawna: "C. Św. Jan Chrzciciel",
+        pytanie: "Kim dla Pana Jezusa był św. Jan Chrzciciel?",
+        odpowiedzPoprawna: "A. Krewnym",
         opcje: [
-            "A. Maryja Panna",
-            "B. Św. Piotr",
-            "C. Św. Jan Chrzciciel",
-            "D. Poncjusz Piłat"
+            "A. Krewnym",
+            "B. Kolegą ze szkoły",
+            "C. Zapomnianym uczniem",
+            "D. Nauczycielem"
         ]
     },
     {
         num: 20,
-        pytanie: "Ile lat Izraelici błąkali się po pustyni?",
-        odpowiedzPoprawna: "C. 40",
+        pytanie: "Dlaczego Izraelici błąkali się 40 lat po pustyni po wyjściu z Egiptu?",
+        odpowiedzPoprawna: "B. Nie uwierzyli Panu Bogu, że zdobędą ziemię, którą im obiecał",
         opcje: [
-            "A. 7",
-            "B. 12",
-            "C. 40",
-            "D. 77"
+            "A. Nie mogli znaleźć drogi",
+            "B. Nie uwierzyli Panu Bogu, że zdobędą ziemię, którą im obiecał",
+            "C. Szukali najlepszej ziemi",
+            "D. Woleli przenosić się z miejsca na miejsce, niż osiąść"
         ]
     },
     {
         num: 21,
-        pytanie: "Co zrobił Zacheusz, aby zobaczyć Pana Jezusa?",
-        odpowiedzPoprawna: "D. Wszedł na drzewo",
+        pytanie: "Zacheusz, aby zobaczyć Pana Jezusa wspiął się na drzewo. Jakiego rodzaju?",
+        odpowiedzPoprawna: "C. Sykomora",
         opcje: [
-            "A. Pojechał do Jerozolimy",
-            "B. Wszedł na wieżę",
-            "C. Biegł przez całe miasto",
-            "D. Wszedł na drzewo"
+            "A. Sosna",
+            "B. Drzewo daktylowe",
+            "C. Sykomora",
+            "D. Cedr"
         ]
     },
     {
         num: 22,
-        pytanie: "Jak nazywało się miejsce, na którym ukrzyżowano Pana Jezusa?",
-        odpowiedzPoprawna: "A. Golgota",
+        pytanie: "Pana Jezusa ukrzyżowano w miejcu, które nazywało się Golgota. Co to oznacza?",
+        odpowiedzPoprawna: "B. Miejsce Czaszki",
         opcje: [
-            "A. Golgota",
-            "B. Góra Oliwna",
-            "C. Nazaret",
-            "D. Tabor"
+            "A. Miejsce straceń",
+            "B. Miejsce Czaszki",
+            "C. Mroczna Góra",
+            "D. Ostatnia Góra"
         ]
     },
     {
         num: 23,
-        pytanie: "Co wołali ludzie, gdy Pan Jezus wjeżdżał do Jerozolimy?",
-        odpowiedzPoprawna: "C. Hosanna!",
+        pytanie: "Gdy Pan Jezus wjeżdżał do Jerozolimy, ludzie wołali \"Hosanna! Błogosławiony Ten, który...\"",
+        odpowiedzPoprawna: "D. przychodzi w imię Pańskie",
         opcje: [
-            "A. Gloria!",
-            "B. Ave!",
-            "C. Hosanna!",
-            "D. Króluj nam Chryste!"
+            "A. wyszedł z Nazaretu",
+            "B. urodził się w Betlejem",
+            "C. jest władcą narodów",
+            "D. przychodzi w imię Pańskie"
         ]
     },
     {
         num: 24,
-        pytanie: "Kogo wskrzesił Pan Jezus?",
-        odpowiedzPoprawna: "A. Łazarza",
+        pytanie: "Po ilu dniach od swojej śmierci Łazarz został wskrzeszony przez Pana Jezusa?",
+        odpowiedzPoprawna: "D. Po czterech dniach",
         opcje: [
-            "A. Łazarza",
-            "B. Teściową jednego z Apostołów",
-            "C. Marię",
-            "D. Martę"
+            "A. Po jednym dniu",
+            "B. Po dwóch dniach",
+            "C. Po trzech dniach",
+            "D. Po czterech dniach"
         ]
     },
     {
         num: 25,
-        pytanie: "Kogo Pan Jezus wypędził ze świątyni?",
-        odpowiedzPoprawna: "D. Bankierów i sprzedawców",
+        pytanie: "Co powiedział Pan Jezus sprzedającym w świątyni?",
+        odpowiedzPoprawna: "B. Weźcie to stąd, a nie róbcie z domu mego Ojca targowiska!",
         opcje: [
-            "A. Saduceuszów",
-            "B. Celników",
-            "C. Faryzeuszów",
-            "D. Bankierów i sprzedawców"
+            "A. Uciekajcie jak najszybciej",
+            "B. Weźcie to stąd, a nie róbcie z domu mego Ojca targowiska!",
+            "C. Możecie sprzedawać, ale wyjdźcie poza teren świątyni",
+            "D. Oddajcie więc Cezarowi to, co należy do Cezara, a Bogu to, co należy do Boga"
         ]
     },
     {
         num: 26,
-        pytanie: "Które ze zwierząt nie znajdowało się wśród plag egipskich?",
-        odpowiedzPoprawna: "C. Lwy",
+        pytanie: "Co stanowiło drugą plagę egipską?",
+        odpowiedzPoprawna: "B. Żaby",
         opcje: [
-            "A. Szarańcza",
-            "B. Muchy",
-            "C. Lwy",
-            "D. Żaby"
+            "A. Zamiana wody w Nilu w krew",
+            "B. Żaby",
+            "C. Komary",
+            "D. Szarańcza"
         ]
     },
     {
         num: 27,
-        pytanie: "Co Izraelici jedli podczas wędrówki przez pustynię?",
-        odpowiedzPoprawna: "B. Mannę i przepiórki",
+        pytanie: "Izraelici jedli podczas wędrówki przez pustynię mannę i przepiórki. Co oznaczają hebrajskie słowa man-hu, od których wzięła nazwę manna?",
+        odpowiedzPoprawna: "D. Co to jest?",
         opcje: [
-            "A. Ogórki i melony",
-            "B. Mannę i przepiórki",
-            "C. Chleby i owoce",
-            "D. Ryż i chleb"
+            "A. Ryż",
+            "B. Biały chleb",
+            "C. Podpłomyki",
+            "D. Co to jest?"
         ]
     },
     {
         num: 28,
-        pytanie: "Który z Apostołów był pod krzyżem Pana Jezusa?",
-        odpowiedzPoprawna: "B. Św. Jan",
+        pytanie: "Jak nazywał się ojciec wskrzeszonej przez Pana Jezusa dziewczynki, który był zwierzchnikiem synagogi?",
+        odpowiedzPoprawna: "D. Jair",
         opcje: [
-            "A. Św. Piotr",
-            "B. Św. Jan",
-            "C. Św. Jakub",
-            "D. Św. Mateusz"
+            "A. Szymon",
+            "B. Jan",
+            "C. Jakub",
+            "D. Jair"
         ]
     },
     {
         num: 29,
-        pytanie: "W co Pan Jezus przemienił wodę na weselu?",
-        odpowiedzPoprawna: "A. Wino",
+        pytanie: "Co powiedziała Najświętsza Maryja Panna sługom na weselu w Kanie Galilejskiej?",
+        odpowiedzPoprawna: "C. Zróbcie wszystko, cokolwiek wam powie",
         opcje: [
-            "A. Wino",
-            "B. Sok winogronowy",
-            "C. Miód",
-            "D. Oliwę"
+            "A. Przynieście stągwie kamienne",
+            "B. Spytajcie mojego Syna o pomoc",
+            "C. Zróbcie wszystko, cokolwiek wam powie",
+            "D. Źle to przygotowaliście, skoro zabrakło wina"
         ]
     },
     {
         num: 30,
-        pytanie: "Kto zdradził Pana Jezusa?",
-        odpowiedzPoprawna: "A. Judasz",
+        pytanie: "Co otrzymał Judasz po zdradzie Pana Jezusa od arcykapłanów i starszych?",
+        odpowiedzPoprawna: "A. Trzydzieści srebrników",
         opcje: [
-            "A. Judasz",
-            "B. Celnik",
-            "C. Faryzeusz",
-            "D. Juda"
+            "A. Trzydzieści srebrników",
+            "B. Talent złota",
+            "C. Trzydzieści denarów",
+            "D. Dwadzieścia złotych monet"
         ]
     },
     {
         num: 31,
-        pytanie: "Gdzie modlił się Pan Jezus przed ukrzyżowaniem?",
-        odpowiedzPoprawna: "B. Na Górze Oliwnej",
+        pytanie: "Ile razy św. Piotr wyparł się Pana Jezusa, gdy Ten został pojmany?",
+        odpowiedzPoprawna: "C. Trzy razy",
         opcje: [
-            "A. W Ogrodzie Różanym",
-            "B. Na Górze Oliwnej",
-            "C. Na górze Tabor",
-            "D. W Nazarecie"
+            "A. Ani razu",
+            "B. Dwa razy",
+            "C. Trzy razy",
+            "D. Siedem razy"
         ]
     },
     {
         num: 32,
-        pytanie: "Gdzie przemienił się Pan Jezus?",
-        odpowiedzPoprawna: "C. Na górze Tabor",
+        pytanie: "Kogo Pan Jezus zabrał z sobą na górę, gdzie się przemienił?",
+        odpowiedzPoprawna: "D. Piotra, Jakuba i Jana",
         opcje: [
-            "A. W Ogrodzie Oliwnym",
-            "B. Przy jeziorze Galilejskim",
-            "C. Na górze Tabor",
-            "D. Na Hebronie"
+            "A. Marka, Mateusza i Łukasza",
+            "B. Piotra, Łukasza i Jana",
+            "C. Marka i Judasza",
+            "D. Piotra, Jakuba i Jana"
         ]
     },
     {
         num: 33,
-        pytanie: "Kto ukazał się podczas Przemienienia Pańskiego?",
-        odpowiedzPoprawna: "C. Mojżesz i Eliasz",
+        pytanie: "Podczas Przemienienia Pańskiego ukazali się Mojżesz i Eliasz. Co uosabiali?",
+        odpowiedzPoprawna: "C. Prawo i Proroków",
         opcje: [
-            "A. Beniamin i Manasses",
-            "B. Mojżesz i Aaron",
-            "C. Mojżesz i Eliasz",
-            "D. Archaniołowie"
+            "A. Archaniołów",
+            "B. Honor i Wolność",
+            "C. Prawo i Proroków",
+            "D. Po prostu znali Pana Jezusa"
         ]
     },
     {
         num: 34,
-        pytanie: "Którego dnia po Zmartwychwstaniu nastąpiło Zesłanie Ducha Świętego?",
-        odpowiedzPoprawna: "D. 50",
+        pytanie: "Kiedy nastąpiło Zesłanie Ducha Świętego?",
+        odpowiedzPoprawna: "D. W dzień Pięćdziesiątnicy",
         opcje: [
-            "A. 7",
-            "B. 12",
-            "C. 40",
-            "D. 50"
+            "A. 3 dni po Zmartwychwstaniu",
+            "B. W dzień Paschy",
+            "C. 40 dni po Zmartwychwstaniu",
+            "D. W dzień Pięćdziesiątnicy"
         ]
     },
     {
         num: 35,
-        pytanie: "Kto zwiastował Maryi Pannie narodzenie się Pana Jezusa?",
-        odpowiedzPoprawna: "D. Archanioł Gabriel",
+        pytanie: "W prologu Ewangelii wg św. Jana czytamy, że na początku było...?",
+        odpowiedzPoprawna: "A. Słowo",
         opcje: [
-            "A. Archanioł Rafał",
-            "B. Archanioł Michał",
-            "C. Św. Jan Chrzciciel",
-            "D. Archanioł Gabriel"
+            "A. Słowo",
+            "B. Światło",
+            "C. Cicho",
+            "D. Oczekiwanie"
         ]
     },
     {
         num: 36,
-        pytanie: "Kto obawiał się narodzin Pana Jezusa?",
-        odpowiedzPoprawna: "C. Herod",
+        pytanie: "Jaki był pierwszy znak, który uczynił Pan Jezus?",
+        odpowiedzPoprawna: "B. Przemienienie wody w wino na weselu w Kanie Galilejskiej",
         opcje: [
-            "A. Faraon",
-            "B. Herold",
-            "C. Herod",
-            "D. Piłat"
+            "A. Wskrzeszenie Łazarza",
+            "B. Przemienienie wody w wino na weselu w Kanie Galilejskiej",
+            "C. Wskrzeszenie córki Jaira",
+            "D. Uzdrowienie paralityka"
         ]
     },
     {
         num: 37,
-        pytanie: "Jak na imię miał brat Mojżesza?",
-        odpowiedzPoprawna: "A. Aaron",
+        pytanie: "Kto był pierwszym arcykapłanem?",
+        odpowiedzPoprawna: "A. Aaron, brat Mojżesza",
         opcje: [
-            "A. Aaron",
-            "B. Amalekita",
-            "C. Antioch",
-            "D. Dariusz"
-        ]
-    },
-    {
-        num: 38,
-        pytanie: "Gdzie przebywał Pan Jezus podczas kuszenia?",
-        odpowiedzPoprawna: "A. Na pustyni",
-        opcje: [
-            "A. Na pustyni",
-            "B. Na jeziorze Galilejskim",
-            "C. W Nazarecie",
-            "D. W Jerozolimie"
-        ]
-    },
-    {
-        num: 39,
-        pytanie: "Ile dni Pan Jezus spędził na pustyni?",
-        odpowiedzPoprawna: "C. 40",
-        opcje: [
-            "A. 7",
-            "B. 12",
-            "C. 40",
-            "D. 77"
-        ]
-    },
-    {
-        num: 40,
-        pytanie: "Kto skazał Pana Jezusa na ukrzyżowanie?",
-        odpowiedzPoprawna: "D. Poncjusz Piłat",
-        opcje: [
-            "A. Judasz",
-            "B. Faryzeusz",
-            "C. Cesarz",
-            "D. Poncjusz Piłat"
-        ]
-    },
-    {
-        num: 41,
-        pytanie: "Kto początkowo zwalczał chrześcijan?",
-        odpowiedzPoprawna: "B. Św. Paweł",
-        opcje: [
-            "A. Św. Łukasz",
-            "B. Św. Paweł",
-            "C. Św. Piotr",
-            "D. Św. Mateusz"
-        ]
-    },
-    {
-        num: 42,
-        pytanie: "Dlaczego Pan Jezus urodził się w żłobie?",
-        odpowiedzPoprawna: "A. Nie było dla nich miejsca w gospodzie",
-        opcje: [
-            "A. Nie było dla nich miejsca w gospodzie",
-            "B. Maryja Panna i św. Józef spóźnili się",
-            "C. Św. Józef nie znał drogi",
-            "D. Maryja Panna nie chciała nikomu przeszkadzać"
-        ]
-    },
-    {
-        num: 43,
-        pytanie: "Jakie jest czwarte przykazanie Dekalogu?",
-        odpowiedzPoprawna: "C. Czcij ojca swego i matkę swoją",
-        opcje: [
-            "A. Nie będziesz brał imienia Pana, Boga twego, nadaremno",
-            "B. Pamiętaj, abyś dzień święty święcił",
-            "C. Czcij ojca swego i matkę swoją",
-            "D. Nie zabijaj"
-        ]
-    },
-    {
-        num: 44,
-        pytanie: "\"Wy jesteście ... ziemi.\" Jakiego określenia użył Pan Jezus?",
-        odpowiedzPoprawna: "D. solą",
-        opcje: [
-            "A. wiatrem",
-            "B. powietrzem",
-            "C. siłą",
-            "D. solą"
-        ]
-    },
-    {
-        num: 45,
-        pytanie: "Kto przyszedł do Pana Jezusa po wodzie, gdy kroczył po jeziorze?",
-        odpowiedzPoprawna: "A. Św. Piotr",
-        opcje: [
-            "A. Św. Piotr",
-            "B. Matka Boże",
-            "C. Św. Paweł",
+            "A. Aaron, brat Mojżesza",
+            "B. Annasz",
+            "C. Kajfasz",
             "D. Łazarz"
         ]
     },
     {
-        num: 46,
-        pytanie: "Co rozmnożył Pan Jezus, gdy słuchający go byli już głodni?",
-        odpowiedzPoprawna: "D. Chleby i ryby",
+        num: 38,
+        pytanie: "Na czym polegało pierwsze kuszenie Pana Jezusa po 40 dniach na pustyni?",
+        odpowiedzPoprawna: "B. Miał przemienić kamienie w chleb",
         opcje: [
-            "A. Owoce i wino",
-            "B. Mannę",
-            "C. Ciasta",
-            "D. Chleby i ryby"
+            "A. Miał rzucić się w dół z narożnika świątyni, a aniołowie mieli Go złapać",
+            "B. Miał przemienić kamienie w chleb",
+            "C. Miał oddać pokłon kusicielowi, by zyskać królestwa świata",
+            "D. Miał wyprowadzić wodę ze skały"
+        ]
+    },
+    {
+        num: 39,
+        pytanie: "Co nie padło z usta Pana Jezusa?",
+        odpowiedzPoprawna: "D. Gromadźcie sobie skarby na ziemi.",
+        opcje: [
+            "A. Kiedy więc dajesz jałmużnę, nie trąb przed sobą [...]",
+            "B. Na modlitwie nie bądźcie gadatliwi jak poganie.",
+            "C. Kiedy pościcie, nie bądźcie posępni jak obłudnicy.",
+            "D. Gromadźcie sobie skarby na ziemi."
+        ]
+    },
+    {
+        num: 40,
+        pytanie: "Dlaczego faryzeusze złościli się na Pana Jezusa, gdy uzdrowił człowieka, który miał uschłą rękę?",
+        odpowiedzPoprawna: "C. Uczynił to w szabat",
+        opcje: [
+            "A. Uzdrowiony był ich wrogiem",
+            "B. Uczynił to w świątyni",
+            "C. Uczynił to w szabat",
+            "D. Uzdrowiony poszedł za Panem Jezusem"
+        ]
+    },
+    {
+        num: 41,
+        pytanie: "Jak faryzeusze oskarżali Pana Jezusa?",
+        odpowiedzPoprawna: "C. On tylko przez Belzebuba, władcę złych duchów, wyrzuca złe duchy",
+        opcje: [
+            "A. On chce, żebyście odwrócili się od prawdziwego Boga",
+            "B. On uzdrawia, by was omamić",
+            "C. On tylko przez Belzebuba, władcę złych duchów, wyrzuca złe duchy",
+            "D. On naucza niezgodnie z prawem Mojżesza"
+        ]
+    },
+    {
+        num: 42,
+        pytanie: "O jakim mieście Pan Jezus powiedział \"Tylko w swojej ojczyźnie i w swoim domu może być prorok lekceważony\"?",
+        odpowiedzPoprawna: "D. Nazaret",
+        opcje: [
+            "A. Jerozolima",
+            "B. Betlejem",
+            "C. Kana Galilejska",
+            "D. Nazaret"
+        ]
+    },
+    {
+        num: 43,
+        pytanie: "Kogo Pan Jezus pytał trzykrotnie \"Czy miłujesz Mnie?\"?",
+        odpowiedzPoprawna: "D. Św. Piotra, który wcześniej trzy razy się Go wyparł",
+        opcje: [
+            "A. Św. Jana, który stał pod krzyżem",
+            "B. Judasza, zanim Go wydał",
+            "C. Łazarza po wskrzeszeniu go",
+            "D. Św. Piotra, który wcześniej trzy razy się Go wyparł"
+        ]
+    },
+    {
+        num: 44,
+        pytanie: "Jak miał na imię faryzeusz, który przyszedł do Pana Jezusa nocą?",
+        odpowiedzPoprawna: "B. Nikodem",
+        opcje: [
+            "A. Annasz",
+            "B. Nikodem",
+            "C. Kajfasz",
+            "D. Jair"
+        ]
+    },
+    {
+        num: 45,
+        pytanie: "Jak nazywała się sadzawka, przy której Pan Jezus uzdrowił chorego, który już od trzydziestu ośmiu lat cierpiał na swoją chorobę?",
+        odpowiedzPoprawna: "B. Betesda",
+        opcje: [
+            "A. Ararat",
+            "B. Betesda",
+            "C. Cedrowa",
+            "D. Dobroczynna"
+        ]
+    },
+    {
+        num: 46,
+        pytanie: "Jakiego mięsa nie mogli spożywać Izraelici według prawa, które przekazał im Mojżesz?",
+        odpowiedzPoprawna: "C. Świni",
+        opcje: [
+            "A. Krowy",
+            "B. Owcy",
+            "C. Świni",
+            "D. Sarny"
         ]
     },
     {
         num: 47,
-        pytanie: "Co stało się po Zmartwychwstaniu, a przed Zesłaniem Ducha Świętego?",
-        odpowiedzPoprawna: "C. Wniebowstąpienie Pana Jezusa",
+        pytanie: "W której Księdze zostało opisane Zesłanie Ducha Świętego?",
+        odpowiedzPoprawna: "A. Dzieje Apostolskie",
         opcje: [
-            "A. Narodzenie św. Jana Chrzciciela",
-            "B. Wyprawa św. Pawła do Aten",
-            "C. Wniebowstąpienie Pana Jezusa",
-            "D. Odnalezienie Arki Przymierza"
+            "A. Dzieje Apostolskie",
+            "B. Ewangelia wg św. Jana",
+            "C. Ewangelia wg św. Jana oraz wg św. Marka",
+            "D. Ewangelia wg św. Marka oraz wg św. Łukasza"
         ]
     },
     {
         num: 48,
-        pytanie: "Jak nazywał się rajski ogród?",
-        odpowiedzPoprawna: "C. Eden",
+        pytanie: "Jak nazywali się synowie Adama i Ewy?",
+        odpowiedzPoprawna: "D. Kain i Abel",
         opcje: [
-            "A. Ziemia Obiecana",
-            "B. Nazaret",
-            "C. Eden",
-            "D. Ogród Oliwny"
+            "A. Jakub i Ezaw",
+            "B. Abram i Lot",
+            "C. Sem, Cham i Jafet",
+            "D. Kain i Abel"
         ]
     },
     {
         num: 49,
-        pytanie: "Którego dnia Pan Bóg stworzył człowieka?",
-        odpowiedzPoprawna: "D. Szóstego",
+        pytanie: "Pan Bóg polecił Abramowi wyruszyć z Charanu i udać się do...?",
+        odpowiedzPoprawna: "B. Kanaanu",
         opcje: [
-            "A. Pierwszego",
-            "B. Trzeciego",
-            "C. Czwartego",
-            "D. Szóstego"
+            "A. Egiptu",
+            "B. Kanaanu",
+            "C. Sychem",
+            "D. Sodomy i Gomory"
         ]
     },
     {
         num: 50,
-        pytanie: "Kto został połknięty przez wielką rybę?",
-        odpowiedzPoprawna: "C. Jonasz",
+        pytanie: "Pan Bóg oznajmił Abramowi, że będzie ojcem mnóstwa narodów i zmienił jego imię na:",
+        odpowiedzPoprawna: "B. Abraham",
         opcje: [
             "A. Jakub",
             "B. Abraham",
-            "C. Jonasz",
-            "D. Św. Paweł"
+            "C. Izrael",
+            "D. Szaweł"
         ]
     },
     {
         num: 51,
-        pytanie: "Kto został wrzucony do jaskini lwów?",
-        odpowiedzPoprawna: "B. Daniel",
+        pytanie: "Jak miał na imię ten, którego zaczęto nazywać Izrael?",
+        odpowiedzPoprawna: "D. Jakub",
         opcje: [
-            "A. Adam",
+            "A. Abraham",
             "B. Daniel",
-            "C. Mojżesz",
-            "D. Izaak"
+            "C. Izmael",
+            "D. Jakub"
         ]
     },
     {
         num: 52,
-        pytanie: "Kto okazał miłosierdzie w przypowieści Pana Jezusa?",
-        odpowiedzPoprawna: "A. Samarytanin",
+        pytanie: "Dlaczego bracia Józefa tak się na niego złościli, że sprzedali go do Egiptu?",
+        odpowiedzPoprawna: "C. Widzieli, że Izrael kocha go bardziej niż wszystkich oraz miał sny, w których oddawali mu pokłon",
         opcje: [
-            "A. Samarytanin",
-            "B. Faryzeusz",
-            "C. Celnik",
-            "D. Trędowaty"
+            "A. Posiadał najwięcej ziemi",
+            "B. Był najstarszy i zarozumiały",
+            "C. Widzieli, że Izrael kocha go bardziej niż wszystkich oraz miał sny, w których oddawali mu pokłon",
+            "D. Nie potrafił paść trzody"
         ]
     },
     {
         num: 53,
-        pytanie: "Ile lat miał Pan Jezus, gdy został odnaleziony w świątyni?",
-        odpowiedzPoprawna: "A. 12",
+        pytanie: "Dlaczego Faraon ustanowił Józefa rządcą całego Egiptu?",
+        odpowiedzPoprawna: "A. Poprawnie wyjaśnił jego sny",
         opcje: [
-            "A. 12",
-            "B. 4",
-            "C. 30",
-            "D. 33"
+            "A. Poprawnie wyjaśnił jego sny",
+            "B. Użył podstępu",
+            "C. Znał wiele języków",
+            "D. Ciężką pracą doszedł do takiego stanowiska"
         ]
     },
     {
         num: 54,
-        pytanie: "Gdzie Pan Jezus spędził swoje dzieciństwo?",
-        odpowiedzPoprawna: "B. Nazaret",
+        pytanie: "Kiedy Józef ponownie spotkał swoich braci?",
+        odpowiedzPoprawna: "B. Gdy przybyli do Egiptu, aby kupić zboża bo głód był w Kanaanie",
         opcje: [
-            "A. Kafarnaum",
-            "B. Nazaret",
-            "C. Jerozolima",
-            "D. Emaus"
+            "A. Po sprzedaży Madianitom już nigdy ich nie spotkał",
+            "B. Gdy przybyli do Egiptu, aby kupić zboża bo głód był w Kanaanie",
+            "C. Gdy Józef udał się na wyprawę do Kanaanu",
+            "D. Gdy zabłądzili na pustyni"
         ]
     },
     {
         num: 55,
-        pytanie: "Kto nauczył nas modlitwy \"Ojcze nasz\"?",
-        odpowiedzPoprawna: "C. Pan Jezus",
+        pytanie: "Kto zastąpił Judasza w gronie Dwunastu?",
+        odpowiedzPoprawna: "D. Maciej",
         opcje: [
-            "A. Św. Jan Chrzciciel",
-            "B. Św. Piotr",
-            "C. Pan Jezus",
-            "D. Matka Boża"
+            "A. Barnaba",
+            "B. Józef zwany Barsabą",
+            "C. Łukasz",
+            "D. Maciej"
         ]
     },
     {
         num: 56,
-        pytanie: "Kto i gdzie ustanowił Najświętszy sakrament?",
-        odpowiedzPoprawna: "C. Pan Jezus w Wieczerniku",
+        pytanie: "Ile osób przyłączyło się do pierwotnego Kościoła po przemowie św. Piotra po Zesłaniu Ducha Świętego?",
+        odpowiedzPoprawna: "C. Około trzech tysięcy",
         opcje: [
-            "A. Św. Piotr w synagodze",
-            "B. Pan Jezus w Kanie Galilejskiej",
-            "C. Pan Jezus w Wieczerniku",
-            "D. Św. Józef w Betlejem"
+            "A. 40",
+            "B. 300",
+            "C. Około trzech tysięcy",
+            "D. Ponad tysiąc"
         ]
     },
     {
         num: 57,
-        pytanie: "Po Zesłaniu Ducha Świętego Apostołowie:",
-        odpowiedzPoprawna: "D. Poszli w świat głosić Dobrą Nowinę o Zmartwychwstaniu",
+        pytanie: "Po Zesłaniu Ducha Świętego Apostołowie, by nie zaniedbywali Słowa Bożego, ustanowili ... mężów, aby zajmowali się rozdawaniem jałmużny.",
+        odpowiedzPoprawna: "D. siedmiu",
         opcje: [
-            "A. Pozostali w Jerozolimie, aby przekonywać faryzeuszów",
-            "B. Wrócili od swoich rodzin",
-            "C. Odpoczywali",
-            "D. Poszli w świat głosić Dobrą Nowinę o Zmartwychwstaniu"
+            "A. dwóch",
+            "B. dwunastu",
+            "C. siedemdziesięciu dwóch",
+            "D. siedmiu"
         ]
     },
     {
         num: 58,
-        pytanie: "Według ilu autorów została spisana Ewangelia?",
-        odpowiedzPoprawna: "B. 4",
+        pytanie: "Kto należał do grona Siedmiu?",
+        odpowiedzPoprawna: "B. św. Szczepan",
         opcje: [
-            "A. 1",
-            "B. 4",
-            "C. 7",
-            "D. 10"
+            "A. Barnaba",
+            "B. św. Szczepan",
+            "C. Szymon Cyrenejczyk",
+            "D. Nikodem"
         ]
     },
     {
         num: 59,
-        pytanie: "Kim był św. Piotr zanim został Apostołem?",
-        odpowiedzPoprawna: "B. Rybakiem",
+        pytanie: "Kto był przy męczeństwie św. Szczepana?",
+        odpowiedzPoprawna: "A. Szaweł",
         opcje: [
-            "A. Celnikiem",
-            "B. Rybakiem",
-            "C. Lekarzem",
-            "D. Prawnikiem"
+            "A. Szaweł",
+            "B. Marek",
+            "C. Nikodem",
+            "D. Eliasz"
         ]
     },
     {
         num: 60,
-        pytanie: "Jaka jest ostatnia księga Pisma Świętego?",
-        odpowiedzPoprawna: "D. Apokalipsa",
+        pytanie: "W jaki sposób nawrócił się Szaweł?",
+        odpowiedzPoprawna: "D. Pan Jezus przemówił do niego, gdy był w podróży do Damaszku",
         opcje: [
-            "A. Ewangelia według św. Jana",
-            "B. Drugi List do Tesaloniczan",
-            "C. List do Hebrajczyków",
-            "D. Apokalipsa"
+            "A. Słuchał przemówienia św. Piotra",
+            "B. Nawrócił się po męczeństwie św. Szczepana",
+            "C. Spotkał Apostołów w Wieczerniku",
+            "D. Pan Jezus przemówił do niego, gdy był w podróży do Damaszku"
         ]
     },
     {
         num: 61,
-        pytanie: "W której księdze Pisma Świętego czytamy o losach Apostołów po Zmartwychwstaniu Pana Jezusa?",
-        odpowiedzPoprawna: "C. Dzieje Apostolskie",
+        pytanie: "Kogo wskrzesił św. Piotr?",
+        odpowiedzPoprawna: "A. Tabitę",
         opcje: [
-            "A. Drugi List św. Piotra",
-            "B. List do Hebrajczuków",
-            "C. Dzieje Apostolskie",
-            "D. Apokalipsa"
+            "A. Tabitę",
+            "B. Łazarza",
+            "C. Martę",
+            "D. Marię"
         ]
     },
     {
         num: 62,
-        pytanie: "Z powodu tłumu czterech mężczyzn nie mogło przynieść sparaliżowanego człowieka do Pana Jezusa. Co zrobili?",
-        odpowiedzPoprawna: "B. Przez otwór w dachu spuścili go na łożu",
+        pytanie: "Kto pomógł św. Piotrowi wydostać się z więzienia?",
+        odpowiedzPoprawna: "B. Anioł Pański",
         opcje: [
-            "A. Pan Jezus zawołał go do siebie",
-            "B. Przez otwór w dachu spuścili go na łożu",
-            "C. Apostołowie utorowali mu drogę",
-            "D. Tłum nie dopuścił go do Pana Jezusa"
+            "A. Barnaba",
+            "B. Anioł Pański",
+            "C. Św. Paweł",
+            "D. Jan, zwany Markiem"
         ]
     },
     {
         num: 63,
-        pytanie: "Kto nakłonił Pana Jezusa, aby pomógł nowożeńcom na weselu w Kanie Galilejskiej (zamieniając wodę w wino)?",
-        odpowiedzPoprawna: "B. Najświętsza Maryja Panna",
+        pytanie: "Co odpowiedzieli słuchający św. Pawła na Areopagu?",
+        odpowiedzPoprawna: "B. Posłuchamy cię o tym innym razem",
         opcje: [
-            "A. Św. Piotr",
-            "B. Najświętsza Maryja Panna",
-            "C. Św. Jan",
-            "D. Marta"
+            "A. Bardzo ciekawe. Chcemy przyjąć chrzest",
+            "B. Posłuchamy cię o tym innym razem",
+            "C. Nie wierzymy w zmartwychwstanie",
+            "D. Nie rozumiemy twojego języka"
         ]
     },
     {
         num: 64,
-        pytanie: "Kto nie był Apostołem?",
-        odpowiedzPoprawna: "D. Św. Łukasz",
+        pytanie: "Kto udał się do Piłata i poprosił o ciało Pana Jezusa po ukrzyżowaniu?",
+        odpowiedzPoprawna: "C. Józef z Arymatei",
         opcje: [
             "A. Św. Piotr",
-            "B. Św. Mateusz",
-            "C. Św. Jan",
-            "D. Św. Łukasz"
+            "B. Św. Jan",
+            "C. Józef z Arymatei",
+            "D. Szymon Cyrenejczyk"
         ]
     },
     {
         num: 65,
-        pytanie: "Co się stało podczas chrztu Pana Jezusa?",
-        odpowiedzPoprawna: "B. Duch Święty zstąpił na Niego, w postaci cielesnej niby gołębica",
+        pytanie: "W 1 Liście św. Jan pisze: \"Po tym zaś poznajemy, że Go znamy,...\"",
+        odpowiedzPoprawna: "D. jeżeli zachowujemy Jego przykazania",
         opcje: [
-            "A. Woda rozstąpiła się na dwie strony",
-            "B. Duch Święty zstąpił na Niego, w postaci cielesnej niby gołębica",
-            "C. Krzew zapłonął, ale się nie spalił ",
-            "D. Ukazał się Mojżesz i Eliasz"
+            "A. gdy nienawidzimy brata swego",
+            "B. jeżeli odczuwamy Jego obecność",
+            "C. gdy długo się modlimy",
+            "D. jeżeli zachowujemy Jego przykazania"
         ]
     },
     {
         num: 66,
-        pytanie: "Co powiedział Pan Jezus bogatemu młodzieńcowi, że ten się mocno zasmucił?",
-        odpowiedzPoprawna: "C. Sprzedaj wszystko, co masz, i rozdaj ubogim",
+        pytanie: "Czyim synem był Salomon?",
+        odpowiedzPoprawna: "D. Dawida",
         opcje: [
-            "A. Musisz się całkowicie zmienić",
-            "B. Udaj się do pogan i głoś im Dobrą Nowinę",
-            "C. Sprzedaj wszystko, co masz, i rozdaj ubogim",
-            "D. Udaj się do Nazaretu"
+            "A. Obeda",
+            "B. Saula",
+            "C. Jessego",
+            "D. Dawida"
         ]
     },
     {
         num: 67,
-        pytanie: "Co Pan Jezus powiedział o dzieciach?",
-        odpowiedzPoprawna: "C. Pozwólcie dzieciom przychodzić do Mnie",
+        pytanie: "Kto był następcą Mojżesza?",
+        odpowiedzPoprawna: "A. Jozue",
         opcje: [
-            "A. Dzieci nie powinny bawić się zapałkami",
-            "B. Dzieci powinny być bardzo, bardzo grzeczne",
-            "C. Pozwólcie dzieciom przychodzić do Mnie",
-            "D. Niech Mi nie przeszkadzają"
+            "A. Jozue",
+            "B. Saul",
+            "C. Eliasz",
+            "D. Izajasz"
         ]
     },
     {
         num: 68,
-        pytanie: "Co wydarzyło się po Zesłaniu Ducha Świętego?",
-        odpowiedzPoprawna: "A. Uczniowie Pana Jezusa zaczęli mówić w różnych językach",
+        pytanie: "Kto położył kres niewoli babilońskiej?",
+        odpowiedzPoprawna: "C. Cyrus",
         opcje: [
-            "A. Uczniowie Pana Jezusa zaczęli mówić w różnych językach",
-            "B. Zasłona świątyni rozdarła się na dwie części",
-            "C. Nastąpiło zaćmienie Słońca",
-            "D. Ludzie zaczęli uciekać"
+            "A. Dawid",
+            "B. Nabuchodonozor",
+            "C. Cyrus",
+            "D. Juda Machabeusz"
         ]
     },
     {
         num: 69,
-        pytanie: "Co następuje w przypadku zagubienia jednej owcy w przypowieści Pana Jezusa?",
-        odpowiedzPoprawna: "A. Zostawia się 99 pozostałych i szuka się jednej zagubionej",
+        pytanie: "Św. Paweł w 1 Liście do Koryntian pisze o wierze, nadziei i miłości. O której z nich pisze, że jest największa?",
+        odpowiedzPoprawna: "C. Miłość",
         opcje: [
-            "A. Zostawia się 99 pozostałych i szuka się jednej zagubionej",
-            "B. Czeka się, aż sama wróci",
-            "C. Sprasza się przyjaciół i sąsiadów i szuka razem z nimi",
-            "D. Siada się na kamieniu i załamuje"
+            "A. Wiara",
+            "B. Nadzieja",
+            "C. Miłość",
+            "D. Wszystkie są równe"
         ]
     },
     {
         num: 70,
-        pytanie: "Ile psalmów znajduje się w Księdze Psalmów?",
-        odpowiedzPoprawna: "C. 150",
+        pytanie: "Kto jest autorem części Psalmów?",
+        odpowiedzPoprawna: "C. Dawid",
         opcje: [
-            "A. 40",
-            "B. 77",
-            "C. 150",
-            "D. 777"
+            "A. Abraham",
+            "B. Mojżesz",
+            "C. Dawid",
+            "D. Salomon"
         ]
     }
 ];

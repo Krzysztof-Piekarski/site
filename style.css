@@ -79,6 +79,10 @@ body {
     border-radius: 30px;
 }
 
+.kolumna .wiersz p {
+    font-size: 21px;
+}
+
 .kolumna .wiersz p.sekundy {
     font-size: 20px;
 }
