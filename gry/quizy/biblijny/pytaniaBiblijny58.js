@@ -16,7 +16,7 @@ let pytania = [
         odpowiedzPoprawna: "D. Symeon",
         opcje: [
             "A. Szymon",
-            "B. św. Elżieta",
+            "B. św. Elżbieta",
             "C. Zachariasz",
             "D. Symeon"
         ]
@@ -26,7 +26,7 @@ let pytania = [
         pytanie: "Co robił Pan Jezus przed wyborem 12 Apostołów?",
         odpowiedzPoprawna: "C. Wyszedł na górę i całą noc trwał na modlitwie",
         opcje: [
-            "A. Spytał miejcową ludność o najmądrzejszych",
+            "A. Spytał miejscową ludność o najmądrzejszych",
             "B. Dokładnie z każdym porozmawiał",
             "C. Wyszedł na górę i całą noc trwał na modlitwie",
             "D. Dokonał losowania"

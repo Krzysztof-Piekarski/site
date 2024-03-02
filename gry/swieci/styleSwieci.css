@@ -1,0 +1,133 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+
+body {
+    color: #000000;
+    background: #ffffff;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 5px 10%;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10;
+    box-shadow: 0px 10px 13px rgba(0,0,0,.2);
+}
+
+.logo img {
+    width: 100px;
+}
+
+.navbar a {
+    font-size: 18px;
+    color: #584557;
+    text-decoration: none;
+    padding: 2px;
+    margin-left: 35px;
+    transition: 0.08s;
+}
+
+.navbar a:hover,
+.navbar a.active {
+    border-bottom: 2px solid #000000;
+}
+
+.kolumna {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.kolumna .wiersz {
+    max-width: 800px;
+    flex-direction: row;
+    text-align: center;
+    margin: 10px;
+}
+
+.kolumna .wiersz img {
+    width: 800px;
+    float: left;
+    border-radius: 30px;
+}
+
+.kolumna .wiersz h1 {
+    margin-top: 100px;
+}
+
+.kolumna .wiersz .defaultButton {
+    width: 200px;
+    height: 70px;
+    background-color: transparent;
+    border: solid 1px;
+    outline: none;
+    border-radius: 8px;
+    font-size: 20px;
+    color: #000000;
+    letter-spacing: 3px;
+    cursor: pointer;
+    transition: 0.4s;
+    margin-inline: 20px;
+    margin-bottom: 10px;
+}
+
+.kolumna .wiersz .defaultButton:hover {
+    border-color: #888888;
+    color: #888888;
+}
+
+.odpowiedzi .odpowiedz {
+    width: 100%;
+    padding: 15px;
+    background: transparent;
+    color: #000000;
+    border: solid 1px;
+    font-size: 20px;
+    border-radius: 8px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.odpowiedzi .odpowiedz:hover {
+    border-color: #888888;
+    color: #888888;
+}
+
+.odpowiedzi .odpowiedz.poprawna {
+    border-color: #117711;
+    color: #117711;
+}
+
+.odpowiedzi .odpowiedz.bledna {
+    border-color: #ff1111;
+    color: #ff1111;
+}
+
+.odpowiedzi .odpowiedz.niedostepna {
+    pointer-events: none;
+    cursor: none;
+}
+
+ .kolumna .wiersz .defaultButton#next-btn {
+    pointer-events: none;
+    opacity: 0;
+}
+
+ .kolumna .wiersz .defaultButton#next-btn.widoczny {
+    pointer-events: auto;
+    opacity: 1;
+}
