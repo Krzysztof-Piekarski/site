@@ -7,7 +7,7 @@ window.onload = next;
 
 function next(){
     nextBtn.classList.remove('widoczny');
-	num = Math.floor(Math.random()*61);
+	num = Math.floor(Math.random()*80);
     showSaint(num);
 }
 

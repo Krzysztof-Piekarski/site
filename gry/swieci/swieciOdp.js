@@ -10,6 +10,16 @@ let swieciStruct = [
         ]
     },
     {
+        path: "AlojzyOrione",
+        odpowiedzPoprawna: "św. Alojzy Orione",
+        opcje: [
+            "św. Alojzy Orione",
+            "św. Wincenty a Paulo",
+            "św. Jan Maria Vianney",
+            "św. Filip Neri"
+        ]
+    },
+    {
         path: "Andrzej",
         odpowiedzPoprawna: "św. Andrzej",
         opcje: [
@@ -20,6 +30,16 @@ let swieciStruct = [
         ]
     },
     {
+        path: "AntoniPadewski",
+        odpowiedzPoprawna: "św. Antoni z Padwy",
+        opcje: [
+            "św. Dominik Savio",
+            "św. Józef z Kupertynu",
+            "św. Antoni z Padwy",
+            "św. Filip Neri"
+        ]
+    },
+    {
         path: "AntoniWielki",
         odpowiedzPoprawna: "św. Antoni Wielki",
         opcje: [
@@ -27,6 +47,16 @@ let swieciStruct = [
             "św. Tomasz z Akwinu",
             "św. Dominik",
             "św. Albert"
+        ]
+    },
+    {
+        path: "Apolonia",
+        odpowiedzPoprawna: "św. Apolonia",
+        opcje: [
+            "św. Katarzyna",
+            "św. Cecylia",
+            "św. Apolonia",
+            "św. Kinga"
         ]
     },
     {
@@ -110,6 +140,16 @@ let swieciStruct = [
         ]
     },
     {
+        path: "Bobola",
+        odpowiedzPoprawna: "św. Andrzej Bobola",
+        opcje: [
+            "św. Stanisław",
+            "św. Andrzej Bobola",
+            "św. Wojciech",
+            "bł. Stefan Wyszyński"
+        ]
+    },
+    {
         path: "Boleslawa",
         odpowiedzPoprawna: "bł. Bolesława Maria Lament",
         opcje: [
@@ -140,6 +180,16 @@ let swieciStruct = [
         ]
     },
     {
+        path: "CyrylMetody",
+        odpowiedzPoprawna: "św. Cyryl i Metody",
+        opcje: [
+            "św. Kosma i Damian",
+            "św. Cyryl i Metody",
+            "bł. Michał Tomaszek i Zbigniew Strzałkowski",
+            "św. Melchior i Baltazar"
+        ]
+    },
+    {
         path: "Dominik",
         odpowiedzPoprawna: "św. Dominik",
         opcje: [
@@ -157,6 +207,26 @@ let swieciStruct = [
             "św. Józef z Kupertynu",
             "św. Karol Acutis",
             "św. Filip Neri"
+        ]
+    },
+    {
+        path: "EdytaStein",
+        odpowiedzPoprawna: "św. Edyta Stein",
+        opcje: [
+            "św. Edyta Stein (Teresa Benedykta od Krzyża)",
+            "św. Joanna Beretta Molla",
+            "bł. Bernardyna Maria Jabłońska",
+            "św. Faustyna"
+        ]
+    },
+    {
+        path: "Escriva",
+        odpowiedzPoprawna: "św. Josemaría Escrivá",
+        opcje: [
+            "św. Josemaría Escrivá",
+            "św. Ojciec Pio",
+            "św. Leopold Mandić",
+            "św. Ludwik Maria Grignion de Montfort"
         ]
     },
     {
@@ -210,6 +280,26 @@ let swieciStruct = [
         ]
     },
     {
+        path: "FranciszekSalezy",
+        odpowiedzPoprawna: "św. Franciszek Salezy",
+        opcje: [
+            "św. Franciszek Salezy",
+            "św. Franciszek Ksawery",
+            "św. Franciszek",
+            "św. Filip Neri"
+        ]
+    },
+    {
+        path: "GemmaGalgani",
+        odpowiedzPoprawna: "św. Gemma Galgani",
+        opcje: [
+            "św. Teresa z Lisieux",
+            "św. Joanna Beretta Molla",
+            "bł. Chiara Luce Badano",
+            "św. Gemma Galgani"
+        ]
+    },
+    {
         path: "GrzegorzWielki",
         odpowiedzPoprawna: "św. Grzegorz Wielki",
         opcje: [
@@ -230,6 +320,36 @@ let swieciStruct = [
         ]
     },
     {
+        path: "Honorat",
+        odpowiedzPoprawna: "bł. Honorat Koźmiński",
+        opcje: [
+            "św. Zygmunt Szczęsny Feliński",
+            "bł. Honorat Koźmiński",
+            "bł. Jerzy Popiełuszko",
+            "bł. Stefan Wyszyński"
+        ]
+    },
+    {
+        path: "IgnacyLoyola",
+        odpowiedzPoprawna: "św. Ignacy Loyola",
+        opcje: [
+            "św. Wojciech",
+            "św. Franciszek Ksawery",
+            "św. Ignacy Loyola",
+            "św. Filip Neri"
+        ]
+    },
+    {
+        path: "Jakub",
+        odpowiedzPoprawna: "św. Jakub Większy",
+        opcje: [
+            "św. Piotr",
+            "św. Paweł",
+            "św. Łukasz",
+            "św. Jakub Większy"
+        ]
+    },
+    {
         path: "Jan",
         odpowiedzPoprawna: "św. Jan",
         opcje: [
@@ -237,6 +357,16 @@ let swieciStruct = [
             "św. Mateusz",
             "św. Łukasz",
             "św. Jan"
+        ]
+    },
+    {
+        path: "JanBosko",
+        odpowiedzPoprawna: "św. Jan Bosko",
+        opcje: [
+            "św. Jan Bosko",
+            "św. Wincenty a Paulo",
+            "św. Jan Maria Vianney",
+            "św. Filip Neri"
         ]
     },
     {
@@ -320,6 +450,16 @@ let swieciStruct = [
         ]
     },
     {
+        path: "Kalinowski",
+        odpowiedzPoprawna: "św. Rafał Kalinowski",
+        opcje: [
+            "św. Zygmunt Szczęsny Feliński",
+            "św. Rafał Kalinowski",
+            "bł. Jerzy Popiełuszko",
+            "św. Maksymilian Maria Kolbe"
+        ]
+    },
+    {
         path: "KarolAcutis",
         odpowiedzPoprawna: "św. Karol Acutis",
         opcje: [
@@ -327,6 +467,16 @@ let swieciStruct = [
             "św. Józef z Kupertynu",
             "św. Karol Acutis",
             "św. Filip Neri"
+        ]
+    },
+    {
+        path: "Karolina",
+        odpowiedzPoprawna: "bł. Karolina Kózkówna",
+        opcje: [
+            "św. Teresa z Lisieux",
+            "św. Joanna Beretta Molla",
+            "bł. Chiara Luce Badano",
+            "bł. Karolina Kózkówna"
         ]
     },
     {
@@ -397,6 +547,16 @@ let swieciStruct = [
             "św. Ojciec Pio",
             "św. Leopold Mandić",
             "św. Ludwik Maria Grignion de Montfort"
+        ]
+    },
+    {
+        path: "Lukasz",
+        odpowiedzPoprawna: "św. Łukasz",
+        opcje: [
+            "św. Marek",
+            "św. Mateusz",
+            "św. Łukasz",
+            "św. Jan"
         ]
     },
     {
@@ -520,6 +680,16 @@ let swieciStruct = [
         ]
     },
     {
+        path: "Roch",
+        odpowiedzPoprawna: "św. Roch",
+        opcje: [
+            "św. Roch",
+            "św. Florian",
+            "św. Franciszek",
+            "św. Krzysztof"
+        ]
+    },
+    {
         path: "Sebastian",
         odpowiedzPoprawna: "św. Sebastian",
         opcje: [
@@ -530,6 +700,16 @@ let swieciStruct = [
         ]
     },
     {
+        path: "StanislawKostka",
+        odpowiedzPoprawna: "św. Stanisław Kostka",
+        opcje: [
+            "św. Dominik Savio",
+            "św. Stanisław Kostka",
+            "św. Karol Acutis",
+            "św. Filip Neri"
+        ]
+    },
+    {
         path: "Szczepan",
         odpowiedzPoprawna: "św. Szczepan",
         opcje: [
@@ -537,6 +717,16 @@ let swieciStruct = [
             "św. Wawrzyniec",
             "św. Szczepan",
             "św. Andrzej"
+        ]
+    },
+    {
+        path: "Szczesny",
+        odpowiedzPoprawna: "św. Zygmunt Szczęsny Feliński",
+        opcje: [
+            "św. Zygmunt Szczęsny Feliński",
+            "św. Jan Paweł II",
+            "bł. Jerzy Popiełuszko",
+            "bł. Stefan Wyszyński"
         ]
     },
     {
